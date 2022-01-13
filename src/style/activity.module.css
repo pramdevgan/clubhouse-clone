@@ -1,0 +1,59 @@
+.activityContainer {
+    padding: 0 0.7em;
+    height: 100vh;
+    overflow: auto;
+}
+
+.activityHeader {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 0;
+}
+
+.activityHeader h6 {
+    padding: auto;
+    transform: translateX(355%);
+    padding-top: 0.2em;
+
+}
+
+.mainActivity {
+    margin-top: 1em;
+    padding: 0 0 0 0.4em;
+}
+
+.activity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.9em;
+}
+
+.activity img {
+    width: 50px;
+    border-radius: 1.15em;
+    box-shadow: 0 3px 5px #CCCCCC;
+}
+
+.activity>div:first-child {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.ImgageDescription p{
+    font-size: 0.775em;
+    line-height: 1.2;
+    margin-left: 0.5em;
+    color: var(--textColor);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lastActive p {
+    color: #aaaaaa;
+    font-size: 0.665em;
+    margin-left: 2em;
+}

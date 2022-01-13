@@ -1,0 +1,175 @@
+.upcomingContainer{
+    height:100vh;
+    overflow:auto;
+    padding:0 0.5em;
+}
+
+.header img{
+    width: 12px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.7em;
+}
+.header h6{
+    padding-top:0.7em;
+    color: var(--textColor);
+}
+
+.upcomingContainer h5{
+    font-size:1em;
+    background-color: #D6D4D4;
+    margin-left: -0.33em;
+    padding:0.2em 0.5em;
+    color: #6B6A6A;
+}
+
+.timeAndIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timeAndIconContainer p{
+    color: #AAAAAA;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upcomingMain{
+    margin-bottom:1.3em;
+    line-height:1;
+}
+.upcomingMain h6{
+    font-size: 1.1em;
+    color: #6B6A6A;
+}
+
+.timeAndIconContainer p{
+    color: #AAAAAA;
+    font-size:12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.upcomingImages img{
+    width:33px;
+    border-radius:0.71em;
+    margin-left: 0.44em;
+    padding-top: 0.1em;
+}
+
+.upcomingMain>p:last-child{
+    padding-right: 1em;
+    font-size:0.8em;
+    line-height:1.4;
+    color: #9E9C9C;
+    padding-top: 0.2em;
+}
+
+.closeLine{
+    background-color: #918e8e;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    height: 4px;
+    width: 35px;
+    transform: translateX(-50%);
+}
+
+.upcomingBottomSheet {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1.5em;
+    padding: 1.5em 1em;
+    position: relative;
+    height: 100%;
+    margin-top:0.9em;
+}
+
+.DayTimeIcon{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom:-0.7em;
+}
+
+.DayTimeIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -0.7em;
+}
+
+.DayTimeIcon svg {
+    margin-top: -0.8em;
+}
+
+.DayTimeIcon>div:first-child {
+    display: flex;
+    font-size: 12px;
+    color: #797777AA;
+}
+
+.DayTimeIcon>div:first-child p {
+    margin-right: 0.5em;
+}
+
+.bottomSheetTitle h6 {
+    color: var(--textColor);
+}
+
+.bottomSheetImages {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3em;
+}
+
+.bottomSheetImages img {
+    width:40px;
+    border-radius:0.7em;
+    margin-bottom:0.3em;
+}
+
+.bottomSheetTitle p{
+    font-size:0.8em;
+    line-height:1.3;
+    width: 95%;
+    margin-bottom:2em;
+}
+
+.svgIcons{
+    display: flex;
+    align-items: center;
+}
+
+.svgIcons button{
+    color: var(--btnBgColor);
+    margin-right: 0.25em;
+    font-weight: 700;
+    margin-bottom: 0.11em;
+    background: transparent;
+    border: none;
+}
+
+.svgIcons p span{
+    font-size: 0.8em;
+}
+
+.upcomingBottomSheet>button:last-child {
+    background-color: #0a9611;
+    margin:0 3em 0 3em;
+    padding: 0.3em 1.2em;
+    border-radius: 1em;
+    border: none;
+    width: 63%;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+
+}
+
